@@ -15,6 +15,7 @@ struct ContentView: View {
                 .scaledToFit()
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.largeTitle)
         }
         .padding()
     }
